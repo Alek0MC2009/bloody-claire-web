@@ -1,5 +1,5 @@
 @import url('fonts.css');
-
+@import url('pals.css');
 .title {
     font-family: font-title, sans-serif;
     font-size: 8rem;
@@ -7,4 +7,58 @@
 p {
     font-family: font-text, sans-serif;
     font-size: 3rem;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    background-color: var(--header);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.title-link {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: var(--text-link);
+    font-family: font-title, sans-serif;
+    font-size: 3rem;
+    transition: color 0.3s ease;
+    width: 50%;
+}
+
+.title-link:hover {
+    cursor: pointer;
+    color: var(--text-link-hover);
+}
+
+.title-link:visited {
+    color: var(--text-link-visited);
+}
+#header-menu {
+    width: 50%;
+}
+#header-menu ul{
+    font-family: font-text, sans-serif;
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    margin-left: -2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 5rem;
+    justify-content: right;
+}
+
+#header-menu a {
+    text-decoration: none;
+    color: var(--text-main);
 }

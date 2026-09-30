@@ -1,7 +1,8 @@
 :root {
     --header: #200a75;
-    --bg: #272753;
+    --bg: #121227;
     --text-main: #dadada;
     --text-link: #dd0018;
     --text-link-visited: #70000c;
+    --text-link-hover: #550009;
 }
