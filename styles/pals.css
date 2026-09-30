@@ -2,7 +2,10 @@
     --header: #200a75;
     --bg: #121227;
     --text-main: #dadada;
+    --text-synopsis: #f1f1f1;
     --text-link: #dd0018;
     --text-link-visited: #70000c;
     --text-link-hover: #550009;
+    --text-main-hover: #df0400;
+    --text-highlight: #ff4646;
 }
