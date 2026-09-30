@@ -1,0 +1,10 @@
+@import url('fonts.css');
+
+.title {
+    font-family: font-title, sans-serif;
+    font-size: 8rem;
+}
+p {
+    font-family: font-text, sans-serif;
+    font-size: 3rem;
+}
